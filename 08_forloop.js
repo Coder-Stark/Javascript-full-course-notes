@@ -27,3 +27,18 @@ for(let a in obj){
 for(let b of "shivam"){
     console.log(b);
 }
+
+
+/*OUTPUT
+sum of first n natural number is :  20
+marks of key shivam are values : 90
+marks of key aditya are values : 89
+marks of key satyam are values : 34
+marks of key tushar are values : 78
+s
+h
+i
+v
+a
+m
+ */
