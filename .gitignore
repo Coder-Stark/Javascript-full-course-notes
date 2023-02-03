@@ -1,5 +1,7 @@
 node_modules/
 
-package
+package/
 
-package-lock
+package-lock/
+
+JS All in One Notes
