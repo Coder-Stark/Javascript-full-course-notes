@@ -1,7 +1,5 @@
 node_modules/
 
-package/
+*.json
 
-package-lock/
-
-JS All in One Notes
+*.pdf
