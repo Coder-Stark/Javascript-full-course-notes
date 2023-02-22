@@ -225,3 +225,73 @@ Employee has requested 4 leaves - Auto approved
 One extra is granted
 */
 
+
+//STATIC METHOD IN JS
+//they are used to implement functions that belong to a class as a whole
+//and not to any particular object
+
+class Animal{
+  constructor(name){
+    this.name = Animal.capitalize(name);
+  }
+  walk(){
+    console.log("Animal " + this.name + ' is walking ');
+  }
+  static capitalize(name){
+    return name.charAt(0).toUpperCase() + name.substr(1 , name.length);
+  }
+}
+
+let j = new Animal('jack');
+j.walk();
+// j.capitalize('jack')           //this doesnot work
+
+/*OUTPUTS
+Animal Jack is walking 
+*/
+
+
+//GETTERS , SETTERS AND INSTANCEOF OPERATOR
+
+class Animal {
+  constructor(name) {
+    this._name = name;
+  }
+  fly() {
+    console.log("I am flying");
+  }
+  get name() {
+    return this._name;
+  }
+  set name(newName) {
+    this._name = newName;
+  }
+}
+
+class Rabbit extends Animal {
+  earCarrot() {
+    console.log("Eating carrot");
+  }
+}
+let a = new Rabbit("Bruno");
+a.fly();
+console.log(a.name);
+a.name = "jack";
+console.log(a.name);
+
+console.log(a instanceof Animal);
+console.log(a instanceof Rabbit);
+
+let c = 44;
+console.log(c instanceof Animal);
+
+/*OUTPUTS
+I am flying
+Bruno
+jack
+
+true
+true
+
+false
+*/
