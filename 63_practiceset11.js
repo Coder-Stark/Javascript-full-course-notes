@@ -7,7 +7,7 @@ class Complex{
     this.real = real;
     this.imaginary = imaginary;
   }
-}
+} 
 
 let a = new Complex(2 , 4);
 let b = new Complex(4 , 5);
