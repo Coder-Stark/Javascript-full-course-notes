@@ -2,6 +2,7 @@
 
 //create ajs class to create a complex number create a constructor
 //to set the real and the complext part
+/*
 class Complex{
   constructor(real , imaginary){
     this.real = real;
@@ -11,9 +12,10 @@ class Complex{
 
 let a = new Complex(2 , 4);
 let b = new Complex(4 , 5);
-
+*/
 
 //write a method to add two complex numbers in the above class
+/*
 class Complex{
   constructor(real , imaginary){
     this.real = real;
@@ -31,7 +33,7 @@ let b = new Complex(4 , 5);
 a.add(b);
 console.log(a.real , a.imaginary);
 console.log(`${a.real} + ${a.imaginary}i`)
-
+*/
 
 /*OUTPUTS
 6 9
