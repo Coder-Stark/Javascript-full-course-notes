@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "name": "03.-javascript-(cwh)",
+  "version": "1.0.0",
+  "main": "01_intro.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coder-Stark/Javascript-full-course-notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coder-Stark/Javascript-full-course-notes/issues"
+  },
+  "homepage": "https://github.com/Coder-Stark/Javascript-full-course-notes#readme",
+  "description": ""
 }
